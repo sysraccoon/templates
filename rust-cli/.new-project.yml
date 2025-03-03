@@ -1,0 +1,4 @@
+templates:
+  - Cargo.toml
+  - package.nix
+

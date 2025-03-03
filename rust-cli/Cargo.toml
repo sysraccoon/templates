@@ -1,0 +1,8 @@
+[package]
+name = "{{ context.project_directory_name }}"
+version = "0.1.0"
+edition = "2021"
+authors = ["{{ context.git_user_name }} <{{ context.git_user_email }}>"]
+
+[dependencies]
+clap = { version = "4.5.26", features = ["derive"] }
