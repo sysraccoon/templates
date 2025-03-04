@@ -1,3 +1,9 @@
+options:
+  use_gitignore: true
+
+exclude:
+  - flake.lock
+
 templates:
   - Cargo.toml
   - package.nix
