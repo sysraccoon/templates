@@ -1,0 +1,8 @@
+exclude:
+  - flake.lock
+  - .direnv
+  - node_modules
+  - package-lock.json
+
+templates:
+  - package.json
