@@ -1,0 +1,16 @@
+{
+    "name": "{{ project_name }}",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "python3 ./build_tools/build.py",
+        "watch": "python3 ./build_tools/watch.py"
+    },
+    "devDependencies": {
+        "@frida/uglifyify": "^7.0.1",
+        "@types/frida-gum": "^18.1.0",
+        "@types/node": "^18.0.6",
+        "frida-compile": "^16.0.1"
+    }
+}

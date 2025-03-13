@@ -1,0 +1,10 @@
+options:
+  use_ignore: true
+
+templates:
+  - package.json
+
+parameters:
+  project_name:
+    description: "Project Name"
+    default: "{{ context.project_directory_name }}"
