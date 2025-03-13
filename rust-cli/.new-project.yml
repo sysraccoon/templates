@@ -1,5 +1,5 @@
 options:
-  use_gitignore: true
+  use_ignore: true
 
 exclude:
   - flake.lock
